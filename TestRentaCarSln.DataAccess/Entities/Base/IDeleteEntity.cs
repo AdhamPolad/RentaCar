@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestRentaCarSln.DataAccess.Entities.Base
+{
+    public interface IDeleteEntity
+    {
+        public bool IsDeleted { get; set; } 
+        public DateTime DeletedDate { get; set; }
+        public int DeleteUserId { get; set; }
+    }
+}

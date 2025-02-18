@@ -1,0 +1,14 @@
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\bin\Debug\net6.0\TestRentaCarSln.DataAccess.deps.json
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\bin\Debug\net6.0\TestRentaCarSln.DataAccess.runtimeconfig.json
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\bin\Debug\net6.0\TestRentaCarSln.DataAccess.dll
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\bin\Debug\net6.0\TestRentaCarSln.DataAccess.pdb
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarSln.DataAccess.csproj.AssemblyReference.cache
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarSln.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarSln.DataAccess.AssemblyInfoInputs.cache
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarSln.DataAccess.AssemblyInfo.cs
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarSln.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarSln.DataAccess.dll
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\refint\TestRentaCarSln.DataAccess.dll
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarSln.DataAccess.pdb
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarSln.DataAccess.genruntimeconfig.cache
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.DataAccess\obj\Debug\net6.0\ref\TestRentaCarSln.DataAccess.dll

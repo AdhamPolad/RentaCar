@@ -1,0 +1,15 @@
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCarSln.Buisness.deps.json
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCarSln.Buisness.dll
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCarSln.Buisness.pdb
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCarSln.DataAccess.dll
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCarSln.DataAccess.pdb
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCarSln.Buisness.csproj.AssemblyReference.cache
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCarSln.Buisness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCarSln.Buisness.AssemblyInfoInputs.cache
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCarSln.Buisness.AssemblyInfo.cs
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCarSln.Buisness.csproj.CoreCompileInputs.cache
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRent.1FAA0195.Up2Date
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCarSln.Buisness.dll
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\refint\TestRentaCarSln.Buisness.dll
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCarSln.Buisness.pdb
+C:\Users\aser\Desktop\c#\Web app\TestRentaCarSln\TestRentaCarSln.Buisness\obj\Debug\net6.0\ref\TestRentaCarSln.Buisness.dll
