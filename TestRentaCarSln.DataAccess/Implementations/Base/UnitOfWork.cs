@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Microsoft.EntityFrameworkCore.Storage;
 using System.Threading.Tasks;
 using TestRentaCarSln.DataAccess.Abstractions.Base;
 using TestRentaCarSln.DataAccess.Context;
@@ -18,6 +15,12 @@ namespace TestRentaCarSln.DataAccess.Implementations.Base
             _appDbContext = appDbContext;
             _repositories = new Dictionary<Type, IRepositoryBase>();
         }
+
+        public async Task<IDbContextTransaction> BeginTransactionAsync()
+        {
+            return await _appDbContext.Database.BeginTransactionAsync();
+        }
+
 
         public void Dispose()
         {

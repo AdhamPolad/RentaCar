@@ -13,8 +13,8 @@ namespace TestRentaCarSln.DataAccess.Configurations.Base
     {
         public override void Configure(EntityTypeBuilder<T> builder)
         {
-            base.Configure(builder);
             builder.HasKey(x => x.Id);
+            base.Configure(builder);
         }
     }
 }

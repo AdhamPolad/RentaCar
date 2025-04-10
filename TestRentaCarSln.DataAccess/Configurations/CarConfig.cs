@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestRentaCarSln.DataAccess.Configurations.Base;
 using TestRentaCarSln.DataAccess.Entities;
 
@@ -15,10 +10,29 @@ namespace TestRentaCarSln.DataAccess.Configurations
         public override void Configure(EntityTypeBuilder<Car> builder)
         {
             builder.Property(x => x.PricePerDay).HasPrecision(7, 2);
-            builder.HasOne(x => x.Brand)
-                   .WithMany(x => x.Car)
-                   .HasForeignKey(x=>x.BrandId)
+            builder.HasOne(x => x.Model)
+                   .WithMany(x => x.Cars)
+                   .HasForeignKey(x=>x.ModelId)
                    .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne(c => c.CarCatagory)
+                   .WithMany(cc => cc.Cars)
+                   .HasForeignKey(c => c.CarCatagoryId)
+                   .OnDelete(DeleteBehavior.NoAction);
+
+            builder.HasOne(x => x.CarDetails)
+                   .WithOne(x => x.Car)
+                   .HasForeignKey<Car>(x => x.CarDetailId)
+                   .OnDelete(DeleteBehavior.NoAction);
+
+
+            builder.HasOne(c => c.Insurance)
+                   .WithOne(i => i.Car)
+                   .HasForeignKey<Car>(c => c.InsuranceId)
+                   .OnDelete(DeleteBehavior.NoAction);
+
+            builder.Property(x => x.LicensePlate)
+                   .HasMaxLength(100);
 
             base.Configure(builder);
         }

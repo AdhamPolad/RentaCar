@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TestRentaCarSln.Buisness.Dtos.Brand;
-using TestRentaCarSln.DataAccess.Entities;
+﻿using TestRentaCar.Buisness.Dtos.CarCatagory;
+using TestRentaCar.Buisness.Dtos.CarDetails;
+using TestRentaCar.Buisness.Dtos.Engin;
+using TestRentaCar.Buisness.Dtos.Model;
 
 namespace TestRentaCarSln.Buisness.Dtos.Car
 {
     public class GetCarDto
     {
         public int Id { get; set; }
-        public GetBrandDto Brand { get; set; }
-        public int BrandId { get; set; }
+        public GetModelDto GetModelDto { get; set; }
         public decimal PricePerDay { get; set; }
-        public bool IsAviable { get; set; }
+        public bool IsAvailable { get; set; }
+        public string LicensePlate { get; set; }  // Avtomobilin nömrə nişanı
+        public GetCarDetail GetCarDetail { get; set; }
+        public GetCarCatagory GetCarCatagory { get; set; }
     }
 }

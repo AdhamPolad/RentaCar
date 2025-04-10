@@ -20,7 +20,7 @@ namespace TestRentaCarSln.DataAccess.Configurations
                 .HasDefaultValue("Active");
 
             builder.HasOne(x => x.Car)
-                .WithMany(x => x.Rental)
+                .WithMany(x => x.Rentals)
                 .HasForeignKey(x => x.CarId)
                 .OnDelete(DeleteBehavior.NoAction);
 
@@ -38,6 +38,11 @@ namespace TestRentaCarSln.DataAccess.Configurations
             builder.Property(x => x.Status)
                    .HasMaxLength(100);
 
+            builder.Property(x => x.DiscountAmount)
+                   .HasPrecision(7, 2);
+
+            builder.Property(x=>x.PenaltyAmount)
+                   .HasPrecision(7, 2);
         }
 
     }

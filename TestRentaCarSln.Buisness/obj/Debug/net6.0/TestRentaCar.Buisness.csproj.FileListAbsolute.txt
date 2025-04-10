@@ -1,0 +1,16 @@
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCar.Buisness.deps.json
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCar.Buisness.dll
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCar.Buisness.pdb
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCarDataAccess.dll
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\bin\Debug\net6.0\TestRentaCarDataAccess.pdb
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCar.Buisness.csproj.AssemblyReference.cache
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCar.Buisness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCar.Buisness.AssemblyInfoInputs.cache
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCar.Buisness.AssemblyInfo.cs
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCar.Buisness.csproj.CoreCompileInputs.cache
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCar.Buisness.sourcelink.json
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRent.404DB979.Up2Date
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCar.Buisness.dll
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\refint\TestRentaCar.Buisness.dll
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\TestRentaCar.Buisness.pdb
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.Buisness\obj\Debug\net6.0\ref\TestRentaCar.Buisness.dll

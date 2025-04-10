@@ -13,7 +13,8 @@ namespace TestRentaCarSln.DataAccess.Abstractions.Base
         Task<bool> CreateAsync(TEntity entity);
         bool Update(TEntity entity);
         bool Delete(TEntity data);
-        Task<bool> DeleteAsync(int id);
+        Task SoftDeleteAsync(int id);
+        Task<bool> HardDeleteAsync(int id);
         Task<TEntity> GetByIdAsync(int id);
         IQueryable<TEntity> Query();
 

@@ -20,11 +20,10 @@ namespace TestRentaCarSln.DataAccess.Configurations
                    .HasMaxLength(100);
             builder.Property(x=>x.FullName)
                    .HasMaxLength(100);
-            builder.Property(x=>x.Email)
-                   .HasMaxLength(100);
 
-            builder.HasIndex(x => x.Email)
-                   .IsUnique();
+            builder.HasOne(x => x.User)
+                   .WithMany()
+                   .HasForeignKey(x => x.UserId);
             
             builder.Property(x=>x.PhoneNumber)
                    .HasMaxLength(100);

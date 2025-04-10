@@ -5,9 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRentaCar.Api", "TestRentaCar\TestRentaCar.Api.csproj", "{40D15C0F-9498-4F81-A297-8AD83422C242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRentaCarSln.DataAccess", "TestRentaCarSln.DataAccess\TestRentaCarSln.DataAccess.csproj", "{AD0365D2-F7E7-49B2-AA98-A58D7AC6927B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRentaCarDataAccess", "TestRentaCarSln.DataAccess\TestRentaCarDataAccess.csproj", "{AD0365D2-F7E7-49B2-AA98-A58D7AC6927B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRentaCarSln.Buisness", "TestRentaCarSln.Buisness\TestRentaCarSln.Buisness.csproj", "{5F06A168-3601-4A73-A198-18CF4E347CDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRentaCar.Buisness", "TestRentaCarSln.Buisness\TestRentaCar.Buisness.csproj", "{5F06A168-3601-4A73-A198-18CF4E347CDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

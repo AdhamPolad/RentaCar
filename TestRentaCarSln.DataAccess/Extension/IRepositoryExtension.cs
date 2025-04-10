@@ -1,11 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TestRentaCarDataAccess.Entities.Identity;
 using TestRentaCarSln.DataAccess.Abstractions.Base;
 using TestRentaCarSln.DataAccess.Context;
 using TestRentaCarSln.DataAccess.Implementations.Base;
@@ -22,6 +19,7 @@ namespace TestRentaCarSln.DataAccess.Extension
 
             });
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
         }
 

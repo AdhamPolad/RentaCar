@@ -1,0 +1,1459 @@
+[
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.AuthController",
+    "Method": "LogOut",
+    "RelativePath": "api/v1/auths",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userNameOrEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/auths/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usernameOrEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.AuthController",
+    "Method": "PasswordReset",
+    "RelativePath": "api/v1/auths/password-reset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currentPas",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "newPas",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.AuthController",
+    "Method": "RefreshTokenLogin",
+    "RelativePath": "api/v1/auths/refresh-token-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BranchController",
+    "Method": "All",
+    "RelativePath": "api/v1/branchs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BranchController",
+    "Method": "Create",
+    "RelativePath": "api/v1/branchs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postBranchDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Branch.PostBranchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BranchController",
+    "Method": "Update",
+    "RelativePath": "api/v1/branchs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateBranchDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Branch.UpdateBranchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BranchController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/branchs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BranchController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/branchs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteType",
+        "Type": "TestRentaCarDataAccess.Enums.DeleteType",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BrandController",
+    "Method": "All",
+    "RelativePath": "api/v1/brands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BrandController",
+    "Method": "Create",
+    "RelativePath": "api/v1/brands",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postBrandDto",
+        "Type": "TestRentaCarSln.Buisness.Dtos.Brand.PostBrandDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BrandController",
+    "Method": "Update",
+    "RelativePath": "api/v1/brands",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateBrandDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Brand.UpdateBrandDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BrandController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/brands/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.BrandController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/brands/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CarController",
+    "Method": "AddAsync",
+    "RelativePath": "api/v1/cars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postCarDto",
+        "Type": "TestRentaCarSln.Buisness.Dtos.Car.PostCarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CarController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/cars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "modelId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "carCatagory",
+        "Type": "System.Nullable\u00601[[TestRentaCarDataAccess.Enums.CarCatagory, TestRentaCarDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "enginId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CarController",
+    "Method": "Update",
+    "RelativePath": "api/v1/cars",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateCarDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Car.UpdateCarDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "carCatagory",
+        "Type": "TestRentaCarDataAccess.Enums.CarCatagory",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CarController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/cars/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CarController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/cars/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CarController",
+    "Method": "GetCheapestCar",
+    "RelativePath": "api/v1/cars/get-cheapest-car",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CustomerController",
+    "Method": "All",
+    "RelativePath": "api/v1/customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CustomerController",
+    "Method": "Update",
+    "RelativePath": "api/v1/customers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCustomerDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Customer.UpdateCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CustomerController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/customers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.CustomerController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/customers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteType",
+        "Type": "TestRentaCarDataAccess.Enums.DeleteType",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.DiscountController",
+    "Method": "Create",
+    "RelativePath": "api/v1/discounts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postDiscountDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Discount.PostDiscountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.DiscountController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/v1/discounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.DiscountController",
+    "Method": "Update",
+    "RelativePath": "api/v1/discounts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDiscountDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Discount.UpdateDiscountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.DiscountController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/discounts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.DiscountController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/discounts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.DiscountController",
+    "Method": "ApplyAsync",
+    "RelativePath": "api/v1/discounts/apply",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rentalId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.DiscountController",
+    "Method": "DeActiveDiscount",
+    "RelativePath": "api/v1/discounts/deactive-discount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.InsuranceController",
+    "Method": "All",
+    "RelativePath": "api/v1/insurances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "carInsuranceType",
+        "Type": "TestRentaCarDataAccess.Enums.CarInsuranceType",
+        "IsRequired": false
+      },
+      {
+        "Name": "minPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.InsuranceController",
+    "Method": "Create",
+    "RelativePath": "api/v1/insurances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postInsuranceDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Insurance.PostInsuranceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.InsuranceController",
+    "Method": "Update",
+    "RelativePath": "api/v1/insurances",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateInsuranceDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Insurance.UpdateInsuranceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.InsuranceController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/insurances/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.InsuranceController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/insurances/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteType",
+        "Type": "TestRentaCarDataAccess.Enums.DeleteType",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.MaintenanceController",
+    "Method": "GeltAllAsync",
+    "RelativePath": "api/v1/maintenances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "rentalId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "minMaintenanceDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxMaintenanceDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.MaintenanceController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/v1/maintenances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postMaintenanceDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Maintenance.PostMaintenanceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.MaintenanceController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/maintenances",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateMaintenanceDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Maintenance.UpdateMaintenanceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.MaintenanceController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/v1/maintenances/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.MaintenanceController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/v1/maintenances/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteType",
+        "Type": "TestRentaCarDataAccess.Enums.DeleteType",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ModelController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/models",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "brandId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "minYear",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxYear",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ModelController",
+    "Method": "Create",
+    "RelativePath": "api/v1/models",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postModelDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Model.PostModelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ModelController",
+    "Method": "Update",
+    "RelativePath": "api/v1/models",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateModelDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Model.UpdateModelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ModelController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/models/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ModelController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/models/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ModelController",
+    "Method": "GetModelsCountByBrand",
+    "RelativePath": "api/v1/models/get-modelscount-by-brand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.PaymentController",
+    "Method": "All",
+    "RelativePath": "api/v1/payments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "paymentStatus",
+        "Type": "System.Nullable\u00601[[TestRentaCarDataAccess.Enums.PaymentStatus, TestRentaCarDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "rentalId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.PaymentController",
+    "Method": "Update",
+    "RelativePath": "api/v1/payments",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePaymentDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Payment.UpdatePaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.PaymentController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/payments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.PaymentController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/payments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteType",
+        "Type": "TestRentaCarDataAccess.Enums.DeleteType",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.PaymentController",
+    "Method": "ConfirmPayment",
+    "RelativePath": "api/v1/payments/confirm-payment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.RentalController",
+    "Method": "RentCar",
+    "RelativePath": "api/v1/rentals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postRentalDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Rental.PostRentalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.RentalController",
+    "Method": "All",
+    "RelativePath": "api/v1/rentals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "carId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "customerId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "rentalStatus",
+        "Type": "System.Nullable\u00601[[TestRentaCarDataAccess.Enums.RentalStatus, TestRentaCarDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.RentalController",
+    "Method": "Update",
+    "RelativePath": "api/v1/rentals",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateRentalDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Rental.UpdateRentalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.RentalController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/rentals/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteType",
+        "Type": "TestRentaCarDataAccess.Enums.DeleteType",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.RentalController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/rentals/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.RentalController",
+    "Method": "CancelRental",
+    "RelativePath": "api/v1/rentals/cancel-rental/{rentalId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.RentalController",
+    "Method": "ReturnCar",
+    "RelativePath": "api/v1/rentals/return-car",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ReviewController",
+    "Method": "Create",
+    "RelativePath": "api/v1/reviews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postReviewDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Review.PostReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ReviewController",
+    "Method": "All",
+    "RelativePath": "api/v1/reviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "carID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "reviewRating",
+        "Type": "System.Nullable\u00601[[TestRentaCarDataAccess.Enums.ReviewRating, TestRentaCarDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ReviewController",
+    "Method": "Update",
+    "RelativePath": "api/v1/reviews",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateReviewDto",
+        "Type": "TestRentaCar.Buisness.Dtos.Review.UpdateReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ReviewController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/reviews/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.ReviewController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/reviews/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "deleteType",
+        "Type": "TestRentaCarDataAccess.Enums.DeleteType",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.RoleController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.RoleController",
+    "Method": "Create",
+    "RelativePath": "api/v1/roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.RoleController",
+    "Method": "Update",
+    "RelativePath": "api/v1/roles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.RoleController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/roles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.RoleController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/roles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.UserController",
+    "Method": "All",
+    "RelativePath": "api/v1/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/users",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userIdOrName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.UserController",
+    "Method": "Update",
+    "RelativePath": "api/v1/users",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateUserDto",
+        "Type": "TestRentaCar.Buisness.Dtos.User.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.UserController",
+    "Method": "AssignRoleToUser",
+    "RelativePath": "api/v1/users/assign-role-to-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roles",
+        "Type": "System.String[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.UserController",
+    "Method": "GetRolesToUser",
+    "RelativePath": "api/v1/users/get-roles-to-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userIdOrName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.UserController",
+    "Method": "RegisterCustomer",
+    "RelativePath": "api/v1/users/register-customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCustomerUserDto",
+        "Type": "TestRentaCar.Buisness.Dtos.User.CreateCustomerUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.UserController",
+    "Method": "Register",
+    "RelativePath": "api/v1/users/register-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserDto",
+        "Type": "TestRentaCar.Buisness.Dtos.User.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestRentaCar.Api.Controllers.Identity.UserController",
+    "Method": "UpdateRefreshToken",
+    "RelativePath": "api/v1/users/update-refresh-token",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "user",
+        "Type": "TestRentaCarDataAccess.Entities.Identity.AppUser",
+        "IsRequired": true
+      },
+      {
+        "Name": "accessTokenDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

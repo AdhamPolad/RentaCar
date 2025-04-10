@@ -1,13 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestRentaCarSln.DataAccess.Abstractions.Base;
 using TestRentaCarSln.DataAccess.Context;
-using TestRentaCarSln.DataAccess.Entities.Base;
+using TestRentaCarSln.DataAccess.Entities.Base; 
 
 namespace TestRentaCarSln.DataAccess.Implementations.Base
 {
@@ -35,10 +30,11 @@ namespace TestRentaCarSln.DataAccess.Implementations.Base
             return entityEntry.State == EntityState.Deleted;
         }
 
-        public async Task<bool> DeleteAsync(int id)
+        public async Task SoftDeleteAsync(int id)
         {
             TEntity data = await Table.FindAsync(id);
-            return Delete(data);
+            data.IsDeleted = true;
+            data.DeletedDate = DateTime.UtcNow;
         }
 
         public IQueryable<TEntity> GetAll()
@@ -61,6 +57,13 @@ namespace TestRentaCarSln.DataAccess.Implementations.Base
         {
             EntityEntry<TEntity> entityEntry = Table.Update(entity);
             return entityEntry.State == EntityState.Modified;
+        }
+
+        public async Task<bool> HardDeleteAsync(int id)
+        {
+            TEntity data = await Table.FindAsync(id);
+            data.DeletedDate = DateTime.UtcNow;
+            return Delete(data);
         }
     }
 }

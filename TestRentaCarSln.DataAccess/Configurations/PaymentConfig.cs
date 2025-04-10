@@ -21,7 +21,7 @@ namespace TestRentaCarSln.DataAccess.Configurations
 
             builder.HasOne(x => x.Rental)
                    .WithOne(x => x.Payment)
-                   .HasForeignKey<Payment>(x => x.Rentalid)
+                   .HasForeignKey<Payment>(x => x.RentalId)
                    .OnDelete(DeleteBehavior.NoAction);
 
             builder.Property(x => x.Amount)

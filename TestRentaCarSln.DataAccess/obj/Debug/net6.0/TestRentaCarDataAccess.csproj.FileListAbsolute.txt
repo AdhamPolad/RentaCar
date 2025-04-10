@@ -1,0 +1,15 @@
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\bin\Debug\net6.0\TestRentaCarDataAccess.deps.json
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\bin\Debug\net6.0\TestRentaCarDataAccess.runtimeconfig.json
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\bin\Debug\net6.0\TestRentaCarDataAccess.dll
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\bin\Debug\net6.0\TestRentaCarDataAccess.pdb
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.csproj.AssemblyReference.cache
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.AssemblyInfoInputs.cache
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.AssemblyInfo.cs
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.sourcelink.json
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.dll
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\refint\TestRentaCarDataAccess.dll
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.pdb
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\TestRentaCarDataAccess.genruntimeconfig.cache
+C:\Users\ADHAM\Desktop\C#\final project\TestRentaCar\TestRentaCarSln.DataAccess\obj\Debug\net6.0\ref\TestRentaCarDataAccess.dll

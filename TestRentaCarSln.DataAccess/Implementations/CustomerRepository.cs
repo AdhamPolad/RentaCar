@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 using TestRentaCarSln.DataAccess.Abstractions;
 using TestRentaCarSln.DataAccess.Context;
 using TestRentaCarSln.DataAccess.Entities;
@@ -15,5 +11,11 @@ namespace TestRentaCarSln.DataAccess.Implementations
         public CustomerRepository(AppDbContext appDbContext) : base(appDbContext)
         {
         }
+
+        public async Task<Customer> GetByUserId(string userId)
+        {
+            return await GetAll().FirstOrDefaultAsync(x=> x.UserId == userId);
+        }
+
     }
 }

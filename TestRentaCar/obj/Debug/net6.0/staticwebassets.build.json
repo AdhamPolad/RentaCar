@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "NXI35EIP9w4QM1iCRdkKeewBz4RaPy7omTbC25brxUg=",
+  "Hash": "l0xdLONmH17xR3pZn/pNvp8W8EdXEqtY804j0kFq+Ho=",
   "Source": "TestRentaCar.Api",
   "BasePath": "_content/TestRentaCar.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -10,5 +10,6 @@ namespace TestRentaCarSln.DataAccess.Abstractions
 {
     public interface ICustomerRepository : IRepository<Customer>
     {
+        Task<Customer> GetByUserId(string userId);
     }
 }
